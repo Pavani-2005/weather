@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<title>Weather App</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="container mt-5">
+<h1 class="text-center">Weather Information</h1>
+<div class="form-group">
+<label for="city">Enter City Name:</label>
+<input type="text" id="cityInput" class="form-control" placeholder="City Name">
+<button onclick="getWeather()" class="btnbtn-primary mt-3">Get Weather</button>
+</div>
+		<div>
+			<h2>Weather Results:</h2>
+			<pre style="font-size:16pt; border: 2px solid aqua;
+  border-radius: 5px; padding:5px;font-family:cambria"id="weatherResult"></pre>
+		</div>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
